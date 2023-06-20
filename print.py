@@ -199,7 +199,7 @@
 # print(count)        
 
 
-
+# # This code is use to generate random password
 # import random
 # no = int(input("Enter the length of password :  "))
 # a = ["a","b","c","d","e","f","g","h","i","j","k"]
@@ -212,16 +212,16 @@
 
 
 
-class Mobile:
-    def __init__(self,m):
-        self.module = m
+# class Mobile:
+#     def __init__(self,m):
+#         self.module = m
         
-    def Show_module(self,p):
-        self.price = p
-        print(f"module {self.module} price {self.price}") 
+#     def Show_module(self,p):
+#         self.price = p
+#         print(f"module {self.module} price {self.price}") 
 
-redme = Mobile("Nokia")
-redme.Show_module(2000) 
-print()
-print(id(redme))          
+# redme = Mobile("Nokia")
+# redme.Show_module(2000) 
+# print()
+# print(id(redme))          
 
